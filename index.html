@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8"/>
+    <meta name="description" content=" 迷你天气查询，查询天气，方便快捷" />
+<meta name="keywords" content="天气预报，天气，生活贴士，星座，温馨提示，炫酷天气，GPS定位" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>查询全国天气小应用</title>
+    <link href="css/mystyle.css" rel="stylesheet">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link rel="icon" href="favicon.ico">
+  </head>
+  <body>
+
+    <header>
+      <div class="container">
+         <nav class="navbar">
+           <div class="container-fluid">
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+          <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+           <ul class="nav navbar-nav">
+             <li class="active"><a href="http://cosmoslmj.com">我的博客 <span class="     sr-only">(current)</span></a></li>
+             <li><a href="https://github.com/Cosmoslmj">github</a></li>
+             <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">其他项目链接 <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="http://cosmoslmj.com/Youkuvue2.0/#/">视频播放网站</a></li>
+            <li><a href="http://cosmoslmj.com/Toutiao-Vue2.0/#/">新闻聚合类</a></li>
+            <li><a href="http://cosmoslmj.com/Html5ReadApp/">阅读器</a></li>
+            <li role="separator" class="divider"></li>
+            <li><a href="#">其他</a></li>
+            <li role="separator" class="divider"></li>
+            <li><a href="#">github</a></li>
+          </ul>
+             </li>
+           </ul>
+           <form class="navbar-form navbar-left">
+             <div class="form-group">
+               <input type="text" class="form-control" placeholder="查询天气" id="text">
+             </div>
+             <button type="submit" class="btn btn-primary" id="btn">搜索</button>
+           </form>
+          </div><!-- /.navbar-collapse -->
+           </div><!-- /.container-fluid -->
+         </nav>
+      </div>     
+    </header>
+    <h1 class="text-center">天气搜索结果</h1>
+    <section class="container">
+      <div id="get_today_msg" class="get-today-msg">
+        <div>
+          <img src="images/w1.png" alt="今日天气" title="今日天气">
+        </div>
+        <div>
+          <div class="message">
+            <span class="msg">城市</span>&nbsp;&nbsp;---
+            <span class="msg">2017-08-01</span>&nbsp;&nbsp;---
+            <span class="msg">星期二</span>&nbsp;&nbsp;---
+            <span class="msg">阴雨转多云</span>&nbsp;&nbsp;---
+          </div>
+          <div class="more-message">
+            今日温度：<span class="msg">---</span>
+            风力：<span class="msg">----</span>
+            风向：<span class="msg">----</span>
+            PM2.5：<span class="msg">--</span>
+          </div>
+          <div class="more-message">
+            紫外线强度：<span class="msg">---</span>
+            洗车指数： <span class="msg">-----</span>
+            感冒指数：<span class="msg">---</span>
+            穿衣指数：<span class="msg">-----</span>
+          </div>
+        </div>
+      </div>
+      <div id="get_future_msg" class="get-future-msg">
+        <div class="future-content">
+          <img src="images/w1.png" alt="天气">
+          <span class="future-msg">2017-08-01</span>
+          <span class="future-msg">星期二</span>
+          <span class="future-msg">--</span>
+          ℃
+          <span class="future-msg">11-16℃</span>
+        </div>
+         <div class="future-content">
+          <img src="images/w2.png" alt="天气">
+          <span class="future-msg">2017-08-01</span>
+          <span class="future-msg">星期二</span>
+          <span class="future-msg">--</span>
+          ℃
+          <span class="future-msg">12-16℃</span>
+        </div>
+         <div class="future-content">
+          <img src="images/w3.png" alt="天气">
+          <span class="future-msg">2017-08-01</span>
+          <span class="future-msg">星期二</span>
+          <span class="future-msg">--</span>
+          ℃
+          <span class="future-msg">12-14℃</span>
+        </div>
+         <div class="future-content">
+          <img src="images/w4.png" alt="天气">
+          <span class="future-msg">2017-08-01</span>
+          <span class="future-msg">星期二</span>
+          <span class="future-msg">--</span>
+          ℃
+          <span class="future-msg">10-17℃</span>
+        </div>
+         <div class="future-content">
+          <img src="images/w5.png" alt="天气">
+          <span class="future-msg">2017-08-01</span>
+          <span class="future-msg">星期二</span>
+          <span class="future-msg">--</span>
+          ℃
+          <span class="future-msg">12-18℃</span>
+        </div>
+         <div class="future-content">
+          <img src="images/w6.png" alt="天气">
+          <span class="future-msg">2017-08-01</span>
+          <span class="future-msg">星期二</span>
+          <span class="future-msg">--</span>
+          ℃
+          <span class="future-msg">12-16℃</span>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <div class="text-center"><a href="https://github.com/Cosmoslmj">返回github</a></div>
+    </footer>
+  <script src="https://cdn.bootcss.com/jquery/1.12.4/jquery.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/myjs.js"></script>
+  </body>
+</html>

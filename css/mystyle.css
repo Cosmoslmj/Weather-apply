@@ -1,0 +1,64 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+header {
+  width: 100%;
+  height: 50px;
+  background-color: #24292e; 
+}
+header a {
+  color: #fff;
+}
+section {
+  padding-top: 100px;
+}
+.get-today-msg {
+  overflow: hidden;
+  padding-top: 20px;
+  background-color: rgba(100,100,100,0.2);
+}
+.get-today-msg div img {
+  float: left;
+  margin: 0 70px 0 40px;
+}
+.message {
+  font-size: 24px;
+  margin-bottom: 18px; 
+}
+.message span {
+  margin: 0 15px;
+}
+.message span:first-child {
+  margin-left: 0;
+}
+.more-message {
+  font-size: 16px;
+  margin-top: 4px;
+}
+.more-message span {
+  margin: 0 15px 0 0;
+}
+.get-future-msg {
+  text-align: center;
+  overflow: hidden;
+  margin: 80px auto;
+}
+.future-content {
+  width: 100%;
+  float: left;
+  width: 150px;
+  padding: 20px 0;
+  margin: 0 20px;
+  background-color: rgba(100,100,100,0.2);
+}
+.future-content:hover {
+    background: rgba(200,200,200,0.8);
+}
+.future-content span {
+  display: block;
+}
+footer div a{
+  font-size: 18px;
+  color: #000;
+}
