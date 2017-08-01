@@ -3,7 +3,6 @@ window.onload = function() {
   btn.addEventListener('click', function () {
     jsonp(creatUrl()[0]);
     jsonp(creatUrl()[1]);
-    alert('y');
   });
   text.addEventListener('keydown', function(e) {
     if (e.keyCode == 13) {
@@ -97,10 +96,10 @@ function chooseImg(id, index) {
     case '24':
     case '25':
     case '26':
-        index.src = 'images/w10.png';
+        index.src = 'images/w4.png';
         break;
     case '7':
-        index.src = 'images/w5.png';
+        index.src = 'images/w6.png';
         break;
     case '14':
     case '15':
@@ -110,7 +109,7 @@ function chooseImg(id, index) {
     case '27':
     case '28':
     case '29':
-        index.src = 'images/w6.png';
+        index.src = 'images/w5.png';
         break;
     case '19':
     case '21':
@@ -145,6 +144,7 @@ function creatUrl () {
   }
   var urls = [];
       urls[0] = 'https://sapi.k780.com/?app=weather.future&appkey=24797&sign=5b91421723a489d8d5cb4a2e27dedea5&format=json&jsoncallback=getWeather&weaid=' + encodeURI(cityName);
-    urls[1] = 'https://api.map.baidu.com/telematics/v3/weather?output=json&ak=Dv1NMU23dh1sGS9n2tUouDEYY96Dfzh3&callback=getTodayWeather&location=' + encodeURI(cityName);
+      urls[1] = 'https://api.map.baidu.com/telematics/v3/weather?output=json&ak=Dv1NMU23dh1sGS9n2tUouDEYY96Dfzh3&callback=getTodayWeather&location=' + encodeURI(cityName);
+  //encodeURI 被用作对一个完整的URI 进行编码，而encodeURIComponent 被用作对URI 的一个组件进行编码
   return urls;
 }

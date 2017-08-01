@@ -3,7 +3,6 @@ window.onload = function() {
   btn.addEventListener('click', function () {
     jsonp(creatUrl()[0]);
     jsonp(creatUrl()[1]);
-    alert('y');
   });
   text.addEventListener('keydown', function(e) {
     if (e.keyCode == 13) {
@@ -97,10 +96,10 @@ function chooseImg(id, index) {
     case '24':
     case '25':
     case '26':
-        index.src = 'images/w10.png';
+        index.src = 'images/w4.png';
         break;
     case '7':
-        index.src = 'images/w5.png';
+        index.src = 'images/w6.png';
         break;
     case '14':
     case '15':
@@ -110,7 +109,7 @@ function chooseImg(id, index) {
     case '27':
     case '28':
     case '29':
-        index.src = 'images/w6.png';
+        index.src = 'images/w5.png';
         break;
     case '19':
     case '21':
